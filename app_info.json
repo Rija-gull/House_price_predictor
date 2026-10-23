@@ -1,0 +1,82 @@
+{
+  "student": "Hafiza Rija Gul (FA24-BSE-044)",
+  "algorithm": "Stacking Regressor",
+  "rmse": 52324.159807436205,
+  "mae": 35912.859041724354,
+  "r2": 0.7941235342645582,
+  "friedman_p": 1.0787747724399687e-07,
+  "scikit_learn": "1.6.1",
+  "numeric_features": [
+    "longitude",
+    "latitude",
+    "housing_median_age",
+    "total_rooms",
+    "total_bedrooms",
+    "population",
+    "households",
+    "median_income",
+    "rooms_per_household",
+    "bedrooms_per_room",
+    "population_per_household"
+  ],
+  "categorical_features": [
+    "ocean_proximity"
+  ],
+  "ocean_proximity": [
+    "<1H OCEAN",
+    "INLAND",
+    "ISLAND",
+    "NEAR BAY",
+    "NEAR OCEAN"
+  ],
+  "medians": {
+    "housing_median_age": 29.0,
+    "total_rooms": 2127.0,
+    "total_bedrooms": 435.0,
+    "population": 1166.0,
+    "households": 409.0,
+    "median_income": 3.5347999999999997
+  },
+  "results": [
+    {
+      "position": 1,
+      "algorithm": "Stacking Regressor",
+      "RMSE mean ($)": 52324.16,
+      "MAE mean ($)": 35912.859,
+      "R2 mean": 0.794,
+      "mean rank": 1.0
+    },
+    {
+      "position": 2,
+      "algorithm": "Nystroem Kernel Regression",
+      "RMSE mean ($)": 54658.393,
+      "MAE mean ($)": 37824.778,
+      "R2 mean": 0.775,
+      "mean rank": 2.4
+    },
+    {
+      "position": 3,
+      "algorithm": "Random Trees Embedding + SGD",
+      "RMSE mean ($)": 54720.331,
+      "MAE mean ($)": 38297.253,
+      "R2 mean": 0.775,
+      "mean rank": 2.6
+    },
+    {
+      "position": 4,
+      "algorithm": "Spline Regression",
+      "RMSE mean ($)": 62329.181,
+      "MAE mean ($)": 44617.832,
+      "R2 mean": 0.708,
+      "mean rank": 4.0
+    },
+    {
+      "position": 5,
+      "algorithm": "ElasticNet",
+      "RMSE mean ($)": 68190.579,
+      "MAE mean ($)": 49099.237,
+      "R2 mean": 0.65,
+      "mean rank": 5.0
+    }
+  ]
+}
