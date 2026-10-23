@@ -2,7 +2,7 @@
 
 **Hafiza Rija Gul – FA24-BSE-044** · Machine Learning Fundamentals (AIC354) · Assignment 3
 
-**Web app:** https://YOUR-APP-NAME.streamlit.app *(add after deploying)*
+**Web app:** https://housepricepredictor-io.streamlit.app/
 
 Predicts the median house value of a California district from the full
 [Kaggle California Housing Prices](https://www.kaggle.com/datasets/camnugent/california-housing-prices) dataset (20,640 districts),
